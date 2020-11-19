@@ -1,0 +1,12 @@
+<div class="container projects-container">
+  <h3>{{ site.data.skills.title }}</h3>
+  <div class="row clearfix layout layout-top-middle">
+    {% for skill in site.data.skills.content %}
+      <div class="col-xs-12 col-md-4 col-print-12 details">
+        <span class="pico-img" style="background-image: url({{ skill.picture | relative_url }})"></span>
+        {%- if skill.name -%}<h4>{{ skill.name }}</h4>{%- endif -%}
+        <span class=skills>{{ skill.description | strip | markdownify }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>

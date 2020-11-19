@@ -1,0 +1,28 @@
+# Education Template
+title: Education
+content:
+  - layout: left
+    picture: images/mcgill_logo.png
+    link: https://www.mcgill.ca/about/
+    name: McGill University
+    dates: 2016 - 2018
+    qualification: Master of Science in Computer Science
+    quote: >
+      Montréal, Canada
+    description: | # this will include new lines to allow paragraphs
+      * Specialization in Big Data Management
+      * Projet done in collaboration with Ericsson Canada (large-scale messaging app)
+
+  - layout: left
+    picture: images/udes_logo.png
+    link: https://www.usherbrooke.ca/about/
+    name: Université de Sherbrooke
+    dates: 2012 - 2016
+    qualification: Bachelor of Science in Computer Science
+    quote: >
+      Sherbrooke, Canada
+    description: | # this will include new lines to allow paragraphs
+      * Co-op program (alternance between school and internships)
+      * Participate in the [Computer Science Games 2015](https://csgames.org/corpo/)
+
+

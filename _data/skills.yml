@@ -1,0 +1,53 @@
+# Skills template
+title: Skills
+content:
+  - layout: top-middle
+    name: Languages
+    picture: images/languages_logo.png
+    description: | # this will include new lines to allow paragraphs
+      * Go / Java / Python
+      * HTML / CSS
+      * SQL
+
+  - layout: top-middle
+    name: Databases
+    picture: images/database_logo.png
+    description: | # this will include new lines to allow paragraphs
+      * PostgreSQL / MySQL
+      * MongoDB
+      * BigQuery
+      * Cassandra
+
+  - layout: top-middle
+    name: Data tools
+    picture: images/data_logo.png
+    description: | # this will include new lines to allow paragraphs
+      * Apache Beam
+      * Pandas
+      * Keras
+      * MathPlotLib
+
+  - layout: top-middle
+    name: CI/CD
+    picture: images/ci_logo.png
+    description: | # this will include new lines to allow paragraphs
+      * Concourse
+      * Jenkins
+      * Kubernetes
+      * Sonarqube
+
+  - layout: top-middle
+    name: Cloud Provider
+    picture: images/cloud_logo.png
+    description: | # this will include new lines to allow paragraphs
+      * Google Cloud Platform
+      * Pivotal Cloud Foundry
+
+  - layout: top-middle
+    name: Other tools
+    picture: images/tools.png
+    description: | # this will include new lines to allow paragraphs
+      * Docker
+      * Git
+      * NewRelic
+      * Django / Spring Boot

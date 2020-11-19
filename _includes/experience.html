@@ -1,0 +1,36 @@
+<div class="container experience-container">
+  <h3>{{ site.data.experience.title }}</h3>
+  {% for experience in site.data.experience.content %}
+  <div class="row clearfix layout layout-left">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <a href={{ experience.link }} >
+        <span class="mini-img" style="background-image: url({{ experience.picture | relative_url }})"></span>
+      </a>
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-7 col-print-12 details">
+      {%- if experience.name -%}<h4>{{ experience.name }}</h4>{%- endif -%}
+      {%- if experience.company -%}<h4>{{ experience.company }}</h4>{%- endif -%}
+      {%- if experience.job_title -%}<p><b>{{ experience.job_title }}</b></p>{%- endif -%}
+      {%- if experience.qualification -%}<p><b>{{ experience.qualification }}</b></p>{%- endif -%}
+      {% for job in experience.jobs %}
+        <p><b>{{ job.title }}</b></p>
+        <p>{{ job.dates }}</p>
+      {% endfor %}
+      {%- if experience.github -%}
+        <p class="no-print">
+          <a href="https://github.com/{{ experience.github }}" target="_blank">
+            <i class="fa fa-github" title="{{ experience.name }} Github link"></i>
+          </a>
+        </p>
+      {%- endif -%}
+      {%- if experience.dates -%}<p>{{ experience.dates }}</p>{%- endif -%}
+      <p>{{ experience.description | strip | markdownify }}</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-2 col-print-12">
+      {%- if experience.quote -%}
+        <p class=quote>{{ experience.quote }}</p>
+      {%- endif -%}
+    </div>
+  </div>
+  {% endfor %}
+</div>

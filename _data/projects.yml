@@ -1,0 +1,43 @@
+# Project template
+title: Projects
+content:
+  - layout: top-middle
+    name: Ericssson Big Data Project
+    picture: images/ericsson-logo.png
+    quote: >
+      Benchmarking several DBMS for a large-scale messaging system 
+
+  - layout: top-middle
+    name: Go-compiler
+    picture: images/Go-Logo_Black.png
+    link: https://github.com/hulm2701/Go_Compiler
+    quote: >
+      A Go-to-Python compiler made during my compiler class
+
+  - layout: top-middle
+    name: Machine Learning Projects
+    picture: images/ML.png
+    link: https://github.com/MaxenceHull/Machine-Learning-Projects
+    quote: >
+      Some personal and scholar projets made during my Master degree
+
+  - layout: top-middle
+    name: Cooperative Pathfinding
+    picture: images/Pathfinding.png
+    link: https://github.com/MaxenceHull/Cooperative_Pathfinding
+    quote: >
+      An implementation of a cooperative version of A-star algorithm
+
+  - layout: top-middle
+    name: VISION App
+    picture: images/android.png
+    link: https://www.youtube.com/watch?v=r1a6DyFre2U&feature=youtu.be
+    quote: >
+      An Android app that allows visually-impaired people to easily visit the city of Angers (France)
+
+  - layout: top-middle
+    name: Arduino Weather Station
+    picture: images/js.png
+    link: https://github.com/MaxenceHull/Weather-Station-MongoDB
+    quote: >
+      Use an Arduino-based weather station to retrieve interesting data!

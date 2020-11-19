@@ -1,0 +1,16 @@
+<div class="container projects-container">
+  <h3>{{ site.data.projects.title }}</h3>
+  <div class="row clearfix layout layout-top-middle">
+    {% for project in site.data.projects.content %}
+      <div class="col-xs-12 col-md-4 col-print-12 details">
+        <a href={{ project.link }} >
+          <span class="pico-img" style="background-image: url({{ project.picture | relative_url }})"></span>
+        </a>
+        {%- if project.name -%}<h4>{{ project.name }}</h4>{%- endif -%}
+        {%- if project.quote -%}
+          <p class=quote>{{ project.quote }}</p>
+        {%- endif -%}
+      </div>
+    {% endfor %}
+  </div>
+</div>

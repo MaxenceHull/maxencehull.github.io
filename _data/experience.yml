@@ -1,0 +1,54 @@
+# Experience template
+title: Experience
+content:
+  - layout: left
+    company: Desjardins Technological Group
+    picture: images/desjardins_logo.jpg
+    link: https://www.desjardins.com/ca/about-us/desjardins/who-we-are/quick-facts/index.jsp
+    job_title: Analyst-Developer
+    dates: March 2020 - present
+    quote: >
+      Montréal, Canada
+    description: |
+        * Builds data pipelines with Apache Beam (complex ETLs) and deploy them on Kubernetes
+        * Design and develop microservices (using Spring Boot) and deploy them on Pivotal Cloud Foundry
+        * Enhance CI/CD pipelines using Concourse, Sonarqube, Docker...
+
+  - layout: left
+    company: SweetIQ (A Gannett company)
+    picture: images/sweetiq_logo.png
+    link: https://sweetiq.com/about/
+    job_title: Software Developer
+    dates: August 2018 - March 2020
+    quote: >
+      Montréal, Canada
+    description: |
+        * Design and develop micoservices in Go, save data in Cloud SQLM, make them communicate trough Pub/Sub messaging system and deploy them using Kubernetes (GKE)
+        * Design, develop and optimize SQL schemas and queries
+        * Develop ETLs using Python (fetching data from different DBMS: MySQL, Postgres and MongoDB)
+        * Design and develop an event-log service to save hundreds of millions of events using BigQuery (and generate reports using Datastudio)
+
+  - layout: left
+    company: Résulto
+    picture: images/resulto.png
+    link: https://www.resulto.ca/en/
+    job_title: Software Developer (Internship)
+    dates: Fall 2015
+    quote: >
+      Montréal, Canada
+    description: |
+        * Design and develop new features for LoyalAction (a web-based service for loyalty programs) including gift cards management, real-time statistics and automated customer surveys
+        * Full stack development using Django framework (Python/HTML/CSS) within an agile team
+        * Maintain best practices via unit tests, integration tests, continuous integration and documentation production
+
+  - layout: left
+    company: National Bank of Canada
+    picture: images/nbc_logo.jpg
+    link: https://www.nbc.ca/
+    job_title: Software Developer (Internship)
+    dates: Summer 2014 and Winter 2015
+    quote: >
+      Montréal, Canada
+    description: |
+        * Backend design and development of a web application in which we can view and manage critical production processes in real-time (JavaEE / MySQL)
+        * Design and develop a parser (Java) in order to collect data from multiple sources and make available statistics concerning critical processes
