@@ -5,7 +5,7 @@ content: |
   I'm passionate about technology (but not only) and try to resolve any problem with code (but not always).
 
   Over the years, I spent a decent amount of time:
-   * dealing with data-related problems: ETLs, Big Data Management or plain old SQL optimization
+   * dealing with data-related problems: data pipeline, Big Data Management or plain old SQL optimization
    * conceiving microservices (mostly in Go or Java) in order to add robustness, scalability and faster deployment to legacy architectures
    * making development easier for teammates by improving CI/CD, monitoring, alerting...
    * listening and speaking to my fellow devs during Meetups to learn and share experiences
