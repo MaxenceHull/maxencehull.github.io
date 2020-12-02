@@ -10,7 +10,7 @@ content:
     quote: >
       Montréal, Canada
     description: |
-        * Builds data pipelines with Apache Beam (complex ETLs) and deploy them on Kubernetes
+        * Build data pipelines with Apache Beam (complex ETLs) and deploy them on Kubernetes
         * Design and develop microservices (using Spring Boot) and deploy them on Pivotal Cloud Foundry
         * Enhance CI/CD pipelines using Concourse, Sonarqube, Docker...
 
